@@ -12,6 +12,7 @@ function App() {
   const [forecast, setForecast] = useState(null);
 
   const handleOnSearchChange = (searchData) => {
+    
 
     const [lat, lon] = searchData.value.split("");
 
